@@ -1,0 +1,117 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.App {
+  text-align: center;
+  background: rgba(255,255,255,0.95);
+  min-height: 100vh;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  margin-right: 8px;
+}
+.navbar-nav .nav-link.active {
+  color: #ffd700 !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #e3f2fd;
+}
+
+.btn {
+  border-radius: 20px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn-primary, .btn-info, .btn-success, .btn-warning, .btn-danger {
+  color: #fff;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+}
+.btn-info {
+  background: linear-gradient(90deg, #17a2b8 0%, #00c6ff 100%);
+  border: none;
+}
+.btn-success {
+  background: linear-gradient(90deg, #28a745 0%, #00c6ff 100%);
+  border: none;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffc107 0%, #00c6ff 100%);
+  border: none;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #dc3545 0%, #00c6ff 100%);
+  border: none;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+  background: #fff;
+}
+.card-title {
+  color: #007bff;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #00c6ff;
+}
+
+.modal-content {
+  border-radius: 16px;
+}
+.modal-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+.modal-title {
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
